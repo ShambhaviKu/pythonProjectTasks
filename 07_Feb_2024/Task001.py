@@ -1,5 +1,6 @@
 ''' Write a Python program to calculate the area of a circle given
 its radius using the formula area=π×r^2 ( Take pie as 3.14) '''
+from math import sqrt
 
 r = float(input('Enter the radios of circle: '))
 pi = 3.14
@@ -28,3 +29,6 @@ Square = 10**2
 Cube = 10**3
 print(Square)
 print(Cube)
+
+Num = int(input("Enter a number: "))
+print(sqrt(Num))

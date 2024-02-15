@@ -25,6 +25,10 @@ print(a[2:5])
 print(a)
 
 
+
 #Bitwise operator
 b = 8^7
 print(b)
+
+
+

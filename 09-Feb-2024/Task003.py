@@ -10,13 +10,14 @@ n = 5
 
 4! -> 4*3*2*1 -> 24 """
 
-# num = int(input("Enter Number:" ))
+number = int(input("enter number- "))
 
-number = int(input("Enter a positive number to find its factorial : "))
-
-factorial = 1
-while number > 1:
-    factorial *= number
-    number -= 1
-
-print("factorial of given number is ", factorial)
+if number < 0:
+    print("fact")
+elif number == 0:
+    print("fact - ", 1)
+else:
+    fact = 1
+    for i in range(1, number + 1):
+        fact = fact * i  # 1*1*2*3*4*5
+    print("factorial of", number, "is", fact)

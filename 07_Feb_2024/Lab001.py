@@ -24,6 +24,8 @@ a.pop()
 print(a[2:5])
 print(a)
 
+print('-----')
+
 
 
 #Bitwise operator
